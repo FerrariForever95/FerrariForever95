@@ -1,235 +1,115 @@
-# 👋 Hi, I'm an Embedded Systems & Firmware Developer
-
-### Embedded Systems • Firmware • Operating Systems • Hardware • IoT
-
-I am an **Embedded Systems Developer and Researcher** with **8+ years of hands-on experience** working across embedded software, firmware, microcontrollers, hardware, and low-level system development.
-
-My work spans from **bare-metal firmware and microcontroller programming** to **RTOS-based systems, ESP32 development, embedded Linux concepts, hardware interfacing, and operating-system development**.
-
-One of my major projects is **Zeno OS**, a native C-kernel embedded operating system developed specifically for the **ESP32-S3**, including a graphical interface and low-level system architecture.
-
-📄 **Research:**
-[Zeno OS – A Native C-Kernel Embedded Operating System with a Graphical Interface for the ESP32-S3](https://www.researchgate.net/publication/409852826_Zeno_OS_-_A_Native_C-Kernel_Embedded_Operating_System_with_a_Graphical_Interface_for_the_ESP32-S3?utm_source=chatgpt.com)
-
----
-
-## 🚀 Core Skills
+## 🧠 Skills & Technologies
 
 ### 💻 Programming Languages
 
-* **C** — Advanced / Embedded C
-* **C++** — Embedded & Systems Programming
-* **AVR C** — Bare-metal AVR firmware
-* **Python** — Automation, tooling, scripting & embedded development support
-* **Arduino C/C++**
-* **Java** — Programming and software development
+<p align="left">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Embedded_C-A8B9CC?style=for-the-badge&logo=c&logoColor=white" alt="Embedded C"/>
+  <img src="https://img.shields.io/badge/AVR_C-CC0000?style=for-the-badge&logo=microchip&logoColor=white" alt="AVR C"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+</p>
+
+### 🔧 Embedded Systems
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino"/>
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3"/>
+  <img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP-IDF"/>
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
+  <img src="https://img.shields.io/badge/AVR-CC0000?style=for-the-badge&logo=microchip&logoColor=white" alt="AVR"/>
+</p>
+
+### ⚙️ Systems & Low-Level Development
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Bare--Metal-333333?style=for-the-badge&logo=linux&logoColor=white" alt="Bare Metal"/>
+  <img src="https://img.shields.io/badge/RTOS-009688?style=for-the-badge&logo=freertos&logoColor=white" alt="RTOS"/>
+  <img src="https://img.shields.io/badge/Operating_Systems-222222?style=for-the-badge&logo=linux&logoColor=white" alt="Operating Systems"/>
+  <img src="https://img.shields.io/badge/Kernel_Development-555555?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel Development"/>
+  <img src="https://img.shields.io/badge/Firmware-1976D2?style=for-the-badge&logo=codeforces&logoColor=white" alt="Firmware"/>
+  <img src="https://img.shields.io/badge/Device_Drivers-455A64?style=for-the-badge&logo=linux&logoColor=white" alt="Device Drivers"/>
+</p>
+
+### 🔌 Hardware & Communication
+
+<p align="left">
+  <img src="https://img.shields.io/badge/UART-607D8B?style=for-the-badge&logoColor=white" alt="UART"/>
+  <img src="https://img.shields.io/badge/SPI-607D8B?style=for-the-badge&logoColor=white" alt="SPI"/>
+  <img src="https://img.shields.io/badge/I²C-607D8B?style=for-the-badge&logoColor=white" alt="I2C"/>
+  <img src="https://img.shields.io/badge/CAN-607D8B?style=for-the-badge&logoColor=white" alt="CAN"/>
+  <img src="https://img.shields.io/badge/GPIO-607D8B?style=for-the-badge&logoColor=white" alt="GPIO"/>
+  <img src="https://img.shields.io/badge/PWM-607D8B?style=for-the-badge&logoColor=white" alt="PWM"/>
+  <img src="https://img.shields.io/badge/ADC-607D8B?style=for-the-badge&logoColor=white" alt="ADC"/>
+</p>
+
+### 🖥️ Embedded Graphics & Interfaces
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Embedded_GUI-673AB7?style=for-the-badge&logoColor=white" alt="Embedded GUI"/>
+  <img src="https://img.shields.io/badge/GUI_Development-7B1FA2?style=for-the-badge&logoColor=white" alt="GUI Development"/>
+  <img src="https://img.shields.io/badge/Display_Systems-512DA8?style=for-the-badge&logoColor=white" alt="Display Systems"/>
+</p>
 
 ---
 
-## 🔧 Embedded Systems
+## 🚀 Featured Project
 
-* Bare-metal Embedded Development
-* Firmware Architecture
-* Microcontroller Programming
-* Hardware–Software Integration
-* Peripheral Drivers
-* Interrupts & Interrupt Service Routines
-* Timers & PWM
-* GPIO
-* ADC / DAC
-* UART / USART
-* SPI
-* I²C
-* CAN
-* Embedded Communication Protocols
-* Bootloaders
-* Memory Management
-* Low-level Hardware Control
-* Real-Time Systems
+### 🖥️ Zeno OS
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Zeno_OS-Native_C_Kernel-222222?style=for-the-badge&logo=c&logoColor=white" alt="Zeno OS"/>
+  <img src="https://img.shields.io/badge/Platform-ESP32--S3-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32-S3"/>
+  <img src="https://img.shields.io/badge/GUI-673AB7?style=for-the-badge&logoColor=white" alt="GUI"/>
+  <img src="https://img.shields.io/badge/Research-8E44AD?style=for-the-badge&logoColor=white" alt="Research"/>
+</p>
+
+**Zeno OS** is my research-oriented **native C-kernel embedded operating system for the ESP32-S3**, featuring a graphical interface and low-level hardware integration.
+
+📄 **Research Paper:**
+https://www.researchgate.net/publication/409852826_Zeno_OS_-_A_Native_C-Kernel_Embedded_Operating_System_with_a_Graphical_Interface_for_the_ESP32-S3
 
 ---
 
-## 🧠 Operating Systems & Low-Level Development
+## 🛠️ Development Stack
 
-### Zeno OS
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,arduino,cmake,git,github,linux" alt="Programming and Development Tools"/>
+</p>
 
-I designed and developed **Zeno OS**, a native **C-kernel embedded operating system for the ESP32-S3**.
-
-Key areas of work include:
-
-* Native C-based kernel development
-* Embedded OS architecture
-* Task and system management
-* Hardware abstraction
-* Memory management
-* Low-level peripheral interaction
-* Graphical user interface
-* ESP32-S3 hardware integration
-* System-level debugging
-* Embedded graphics
-* Kernel-level programming
-
-The project has also been developed as a **research project**, with work submitted for academic publication.
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino,esp32,stm32" alt="Embedded Platforms"/>
+</p>
 
 ---
 
-## ⚡ Microcontrollers & Platforms
+## 📊 Core Expertise
 
-### Espressif
-
-* **ESP32**
-* **ESP32-S3**
-* ESP-IDF
-* FreeRTOS-based development
-* Xtensa / RISC-V embedded environments
-* Wi-Fi & Bluetooth-enabled embedded systems
-* Low-level ESP32 development
-
-### AVR
-
-* AVR microcontrollers
-* AVR C
-* Bare-metal programming
-* Registers & peripheral control
-* Interrupt-driven systems
-* Timers / PWM
-* UART / SPI / I²C
-* Embedded bootloaders
-
-### STM32
-
-* STM32 microcontrollers
-* Embedded C
-* HAL / LL concepts
-* Peripheral programming
-* ARM Cortex-M architecture
-* Real-time embedded applications
-
-### Arduino
-
-* Arduino C/C++
-* Arduino ecosystem
-* Sensor and actuator integration
-* Embedded prototyping
-* Custom hardware integration
-* Rapid firmware development
+| Area                     | Expertise                                                    |
+| ------------------------ | ------------------------------------------------------------ |
+| **Embedded Programming** | C, C++, AVR C, Arduino C/C++                                 |
+| **Microcontrollers**     | ESP32, ESP32-S3, STM32, AVR                                  |
+| **SDKs & Frameworks**    | ESP-IDF, Arduino                                             |
+| **Firmware**             | Bare-metal, Drivers, Peripheral Programming                  |
+| **Operating Systems**    | Kernel Development, Embedded OS, RTOS                        |
+| **Hardware**             | MCU Architecture, Peripherals, Hardware/Software Integration |
+| **Communication**        | UART, SPI, I²C, CAN                                          |
+| **Graphics**             | Embedded GUI, Display Systems                                |
+| **Scripting & Tools**    | Python, Git, CMake                                           |
+| **Research**             | Embedded Operating Systems & Low-Level Systems               |
 
 ---
 
-## 🛠️ Development Areas
+## 🔬 Research & Engineering
 
-```text
-Embedded C
-C++
-AVR C
-Arduino
-ESP-IDF
-ESP32 / ESP32-S3
-STM32
-Microcontrollers
-Firmware
-Bare Metal
-RTOS
-Operating Systems
-Kernel Development
-Hardware Interfaces
-IoT
-Embedded Graphics
-System Programming
-Hardware / Software Integration
-```
+With **8+ years of experience in embedded systems**, my work focuses on the intersection of:
 
----
+**Hardware → Firmware → Drivers → RTOS → Operating Systems → Applications**
 
-## 🔬 Research & Projects
+I enjoy building systems from the ground up, understanding the underlying hardware, writing low-level firmware, developing drivers, and experimenting with operating-system architectures on resource-constrained microcontrollers.
 
-### 🖥️ Zeno OS — ESP32-S3 Embedded Operating System
+### Areas of Interest
 
-**Zeno OS** is a research-oriented embedded operating system designed around a **native C kernel** for the ESP32-S3.
-
-The project explores how an embedded operating system can provide a more complete system environment on resource-constrained hardware while maintaining direct control over the underlying hardware.
-
-**Focus areas:**
-
-`C` • `Kernel Development` • `ESP32-S3` • `ESP-IDF` • `Embedded Systems` • `GUI` • `Hardware` • `Operating Systems`
-
-📄 Research publication:
-[ResearchGate — Zeno OS Research Paper](https://www.researchgate.net/publication/409852826_Zeno_OS_-_A_Native_C-Kernel_Embedded_Operating_System_with_a_Graphical_Interface_for_the_ESP32-S3?utm_source=chatgpt.com)
-
----
-
-## 🧰 Technology Stack
-
-| Category              | Technologies                                                |
-| --------------------- | ----------------------------------------------------------- |
-| **Languages**         | C, C++, AVR C, Python, Arduino C/C++, Java                  |
-| **Embedded**          | ESP32, ESP32-S3, STM32, AVR                                 |
-| **Frameworks / SDKs** | ESP-IDF, Arduino                                            |
-| **Systems**           | RTOS, Bare Metal, Embedded OS                               |
-| **OS Development**    | Kernel Development, Memory Management, Hardware Abstraction |
-| **Communication**     | UART, SPI, I²C, CAN                                         |
-| **Hardware**          | Sensors, Actuators, Microcontrollers, Embedded Peripherals  |
-| **Graphics**          | Embedded GUI / Display Systems                              |
-| **Research**          | Embedded Operating Systems, Low-Level Systems, ESP32-S3     |
-
----
-
-## 🎯 What I Build
-
-I am particularly interested in projects that sit close to the hardware:
-
-* 🔩 Custom embedded hardware
-* ⚙️ Firmware and device drivers
-* 🧠 Operating systems and kernels
-* 🔌 Hardware communication protocols
-* 🖥️ Embedded graphical interfaces
-* 📡 IoT and connected devices
-* 🤖 Microcontroller-based systems
-* 🚀 High-performance embedded applications
-* 🔬 Experimental and research-oriented systems
-
----
-
-## 📈 Experience
-
-**8+ Years in Embedded Systems**
-
-My experience covers the complete embedded development stack:
-
-```text
-                    APPLICATION
-                         │
-                  Embedded Software
-                         │
-                    Firmware
-                         │
-                  RTOS / OS Layer
-                         │
-                  Device Drivers
-                         │
-                 Hardware Abstraction
-                         │
-              Microcontroller / SoC
-                         │
-                       HARDWARE
-```
-
-This combination of **hardware knowledge and low-level software development** allows me to work across the boundary between electronics and software rather than focusing only on application-level programming.
-
----
-
-## 🏷️ Skills & Keywords
-
-`C` `C++` `C Programming` `C++ Programming` `Embedded C` `AVR C` `Arduino` `Arduino C++` `Python` `Java` `ESP32` `ESP32-S3` `ESP-IDF` `Espressif` `STM32` `AVR` `Microcontrollers` `Firmware` `Embedded Systems` `Bare Metal` `RTOS` `Operating Systems` `Kernel Development` `Device Drivers` `Hardware` `IoT` `Embedded Linux` `GUI` `Embedded GUI` `UART` `SPI` `I2C` `CAN` `ARM Cortex-M` `Xtensa` `RISC-V` `System Programming`
-
----
-
-## 🔭 Currently
-
-I am continuing to work on **embedded systems, low-level software, hardware integration, and operating-system development**, with a particular interest in pushing the capabilities of resource-constrained microcontrollers.
-
-> **Build close to the hardware. Understand the system from the bottom up.**
-
----
-
-⭐ If you are interested in **Embedded Systems, Firmware, Microcontrollers, Operating Systems, or Hardware–Software integration**, feel free to explore my projects.
+`Embedded Systems` · `Firmware` · `Embedded C` · `C++` · `Microcontrollers` · `ESP32` · `ESP-IDF` · `STM32` · `AVR` · `Arduino` · `RTOS` · `Bare Metal` · `Operating Systems` · `Kernel Development` · `Device Drivers` · `Embedded GUI` · `Hardware Engineering` · `IoT` · `System Programming`
