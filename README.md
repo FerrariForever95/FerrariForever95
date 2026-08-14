@@ -1,16 +1,16 @@
-# 👋 Hi, I'm an Embedded Systems & Systems Software Engineer
+# 👋 Hi, I'm an Embedded Systems & Hardware Engineer
 
-I build **low-level, hardware-aware software systems** — from microcontroller firmware and device drivers to embedded operating systems, graphical interfaces, IoT platforms, and cloud-connected applications.
+I design and build **embedded systems from hardware to software** — including PCB design, microcontroller firmware, device drivers, operating systems, FPGA development, embedded graphics, IoT systems, and cloud-connected applications.
 
-My work spans the complete embedded software stack:
+My work spans multiple layers of engineering:
 
-**Hardware → Firmware → Drivers → RTOS → Kernel → GUI → Connectivity → Cloud**
+**Electronics → PCB → MCU/FPGA → Firmware → Drivers → RTOS/Kernel → GUI → Connectivity → Cloud**
 
-I enjoy understanding how systems work at the lowest level and building them from the ground up.
+I enjoy working close to the hardware, understanding how systems operate at the electrical, architectural, and software levels, and building complete systems from the ground up.
 
 ---
 
-## 🧠 What I Work With
+## 🧠 Core Skills
 
 ### 💻 Programming
 
@@ -22,13 +22,13 @@ I enjoy understanding how systems work at the lowest level and building them fro
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 </p>
 
-My primary language is **C**, particularly for firmware, embedded systems, drivers, and low-level software.
+**C · C++ · Embedded C · Python · Java**
 
-I also use **C++, Python, and Java** depending on the project and system layer.
+My primary focus is **C and low-level programming**, particularly for embedded firmware, drivers, hardware interfaces, operating systems, and resource-constrained systems.
 
 ---
 
-## 🔧 Embedded Platforms
+# 🔧 Embedded Platforms
 
 <p align="left">
   <img src="https://img.shields.io/badge/ESP8266-000000?style=for-the-badge&logo=espressif&logoColor=white"/>
@@ -37,77 +37,110 @@ I also use **C++, Python, and Java** depending on the project and system layer.
   <img src="https://img.shields.io/badge/ESP32--C3-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/ESP32--C6-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Renesas-E60012?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/AVR-CC0000?style=for-the-badge&logo=microchip&logoColor=white"/>
   <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
   <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white"/>
 </p>
 
-### Microcontrollers & SBCs
+### Microcontrollers & Embedded Platforms
 
-* **ESP8266**
-* **ESP32**
-* **ESP32-S3**
-* **ESP32-C3**
-* **ESP32-C6**
-* **STM32**
-* **AVR**
-* **Arduino**
-* **Raspberry Pi**
+* ESP8266
+* ESP32
+* ESP32-S3
+* ESP32-C3
+* ESP32-C6
+* STM32
+* Renesas
+* AVR
+* Arduino
+* Raspberry Pi
 
-I build projects across both **microcontroller-class systems** and **Linux-based single-board computers**, from simple peripheral control to complete embedded platforms.
+I work across different MCU architectures and platforms, developing firmware, peripheral interfaces, drivers, communication systems, and complete embedded applications.
 
 ---
 
-## ⚙️ Low-Level & Systems Programming
+# 🔬 FPGA & Digital Hardware
+
+I also work with **FPGA-based digital systems and programmable hardware**, exploring the boundary between hardware and software.
+
+Areas include:
+
+* FPGA programming
+* Digital logic
+* Hardware/software co-design
+* FPGA-based embedded systems
+* Peripheral interfaces
+* Digital system architecture
+* Low-level hardware control
+* FPGA experimentation and prototyping
+
+I enjoy FPGA development because it provides another way to understand computing systems — not simply executing software on a processor, but designing the digital hardware that performs the computation.
+
+---
+
+# 🔩 PCB & Electronics Design
+
+I also work on the **hardware side of embedded systems**, including PCB design and electronic system development.
+
+### PCB / Hardware
+
+* PCB design
+* Schematic design
+* Component selection
+* MCU-based board design
+* Power supply design
+* Digital electronics
+* Hardware interfaces
+* Sensor interfaces
+* Communication interfaces
+* Hardware/software integration
+* Prototype development
+
+This allows me to work beyond the firmware layer and understand the complete path from:
+
+**Circuit → PCB → MCU/FPGA → Firmware → Application**
+
+---
+
+# ⚙️ Firmware & Low-Level Systems
 
 <p align="left">
   <img src="https://img.shields.io/badge/Bare_Metal-222222?style=for-the-badge&logo=linux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firmware-1976D2?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firmware-1976D2?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Device_Drivers-455A64?style=for-the-badge&logo=linux&logoColor=white"/>
   <img src="https://img.shields.io/badge/RTOS-009688?style=for-the-badge&logo=freertos&logoColor=white"/>
   <img src="https://img.shields.io/badge/Kernel_Development-555555?style=for-the-badge&logo=linux&logoColor=white"/>
   <img src="https://img.shields.io/badge/Operating_Systems-222222?style=for-the-badge&logo=linux&logoColor=white"/>
 </p>
 
-My low-level work includes:
+My low-level development work includes:
 
-* Bare-metal firmware
-* Firmware architecture
+* Bare-metal programming
+* Embedded firmware
 * Peripheral programming
-* Device drivers
 * Interrupt handling
+* Timers
 * Memory management
-* Scheduling
-* RTOS concepts
+* Device drivers
+* Hardware abstraction
+* RTOS-based systems
 * Kernel development
 * Embedded operating systems
-* Hardware abstraction
 * Low-level debugging
 * Hardware/software integration
 
-I particularly enjoy working below the application layer and understanding what is happening between the **CPU, memory, peripherals, firmware, and operating system**.
-
 ---
 
-## 🔌 Hardware & Communication
-
-<p align="left">
-  <img src="https://img.shields.io/badge/UART-607D8B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SPI-607D8B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/I²C-607D8B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/CAN-607D8B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GPIO-607D8B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/PWM-607D8B?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/ADC-607D8B?style=for-the-badge"/>
-</p>
-
-I work with common MCU peripherals and communication interfaces including:
+# 🔌 Hardware Interfaces & Communication
 
 **UART · SPI · I²C · CAN · GPIO · PWM · ADC · Timers · Interrupts**
 
+I work with MCU peripherals and communication interfaces at both the firmware and hardware levels.
+
 ---
 
-# 🖥️ Embedded Graphics
+# 🖥️ Embedded Graphics & Display Systems
 
 <p align="left">
   <img src="https://img.shields.io/badge/Embedded_GUI-673AB7?style=for-the-badge"/>
@@ -115,16 +148,7 @@ I work with common MCU peripherals and communication interfaces including:
   <img src="https://img.shields.io/badge/Display_Systems-512DA8?style=for-the-badge"/>
 </p>
 
-I also work on **embedded graphical interfaces and display systems**, combining low-level hardware control with user-facing graphical applications.
-
-This includes working with:
-
-* Embedded displays
-* GUI architecture
-* Display drivers
-* Input handling
-* Graphics rendering
-* Hardware/software integration
+I also develop **embedded graphical interfaces and display systems**, combining hardware, firmware, graphics, input handling, and application logic.
 
 ---
 
@@ -133,35 +157,38 @@ This includes working with:
 <p align="left">
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/IoT-FF6F00?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Cloud_Integration-4285F4?style=for-the-badge"/>
 </p>
 
-My work also extends beyond the device itself into **IoT and cloud-connected systems**.
+My work extends from the physical device into cloud-connected systems.
 
-I work with **Google Cloud** and explore architectures that connect embedded devices with backend services, data processing, and cloud infrastructure.
+I use **Google Cloud** and related technologies for building and experimenting with connected embedded systems, IoT architectures, backend services, and device-to-cloud workflows.
 
-```text
-┌──────────────────────┐
-│       Hardware       │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│ ESP / STM32 / AVR    │
-│ Firmware & Drivers   │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│     Connectivity     │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│    Google Cloud      │
-│ IoT / Backend / Data │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│    Applications      │
-└──────────────────────┘
+```text id="g7wq3e"
+┌───────────────┐
+│   Electronics │
+│     / PCB     │
+└───────┬───────┘
+        ↓
+┌────────────────────┐
+│ MCU / FPGA         │
+│ ESP · STM32 · etc. │
+└────────┬───────────┘
+         ↓
+┌────────────────────┐
+│ Firmware / Drivers │
+└────────┬───────────┘
+         ↓
+┌────────────────────┐
+│ Connectivity / IoT │
+└────────┬───────────┘
+         ↓
+┌────────────────────┐
+│   Google Cloud     │
+└────────┬───────────┘
+         ↓
+┌────────────────────┐
+│ Applications / Data│
+└────────────────────┘
 ```
 
 ---
@@ -180,7 +207,7 @@ I work with **Google Cloud** and explore architectures that connect embedded dev
 
 **Zeno OS** is my research-oriented **native C-kernel embedded operating system for the ESP32-S3**.
 
-The project explores operating-system concepts directly on microcontroller hardware, combining:
+The project explores operating-system architecture directly on microcontroller hardware, combining:
 
 * Native C kernel development
 * Low-level hardware control
@@ -192,31 +219,26 @@ The project explores operating-system concepts directly on microcontroller hardw
 * GUI development
 * Hardware/software integration
 
-The goal is to explore how operating-system concepts can be designed and implemented for **resource-constrained embedded hardware**.
+### Architecture
 
-### System Architecture
-
-```text
-                 Zeno OS
-                    │
-        ┌───────────┴───────────┐
-        │                       │
-     Kernel                  Drivers
-        │                       │
-        ├──────────┬────────────┤
-        │          │            │
-    Scheduler   Memory      Peripherals
-        │       Manager          │
-        │          │             │
-        └──────────┴─────────────┘
-                    │
-               GUI / Display
-                    │
-                    ↓
-              Applications
-                    │
-                    ↓
-               ESP32-S3
+```text id="c4w5xy"
+                    ZENO OS
+                       │
+          ┌────────────┴────────────┐
+          │                         │
+       KERNEL                    DRIVERS
+          │                         │
+     ┌────┴────┐              ┌─────┴─────┐
+     │         │              │           │
+ Scheduler  Memory       Peripherals   Hardware
+     │      Manager          │        Interfaces
+     └────────┬──────────────┴───────────┘
+              │
+          GUI / Display
+              │
+          Applications
+              │
+           ESP32-S3
 ```
 
 📄 **Research Paper**
@@ -225,103 +247,102 @@ The goal is to explore how operating-system concepts can be designed and impleme
 
 ---
 
-# 🛠️ Development Environment
+# 🛠️ Tools & Development Environment
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,arduino,cmake,git,github,linux" alt="Development Stack"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,python,java,cmake,git,github,linux,arduino" alt="Development Tools"/>
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=esp32,arduino,raspberrypi,stm32,gcp" alt="Embedded and Cloud Stack"/>
+  <img src="https://skillicons.dev/icons?i=esp32,stm32,raspberrypi,gcp" alt="Embedded and Cloud Platforms"/>
 </p>
 
 ---
 
 # 📊 Technical Expertise
 
-| Domain                 | Technologies                                                    |
-| ---------------------- | --------------------------------------------------------------- |
-| **Languages**          | C, C++, Embedded C, Python, Java                                |
-| **Microcontrollers**   | ESP8266, ESP32, ESP32-S3, ESP32-C3, ESP32-C6, STM32, AVR        |
-| **Embedded Platforms** | Arduino, ESP-IDF, Raspberry Pi                                  |
-| **Firmware**           | Bare-metal, embedded firmware, peripheral programming           |
-| **Systems**            | Operating Systems, RTOS, kernel development, system programming |
-| **Drivers**            | Device drivers, peripheral drivers, hardware abstraction        |
-| **Hardware**           | MCU architecture, registers, peripherals, interrupts            |
-| **Communication**      | UART, SPI, I²C, CAN                                             |
-| **Graphics**           | Embedded GUI, display systems, graphics interfaces              |
-| **Cloud**              | Google Cloud, IoT, cloud-connected systems                      |
-| **Tools**              | Git, GitHub, CMake, Linux                                       |
-| **Research**           | Embedded OS, kernels, low-level systems                         |
+| Domain                 | Technologies / Skills                                             |
+| ---------------------- | ----------------------------------------------------------------- |
+| **Programming**        | C, C++, Embedded C, Python, Java                                  |
+| **Microcontrollers**   | ESP8266, ESP32, ESP32-S3, ESP32-C3, ESP32-C6, STM32, Renesas, AVR |
+| **Embedded Platforms** | Arduino, ESP-IDF, Raspberry Pi                                    |
+| **Firmware**           | Bare-metal, firmware architecture, peripheral programming         |
+| **Operating Systems**  | Kernel development, embedded OS, RTOS, system programming         |
+| **Drivers**            | Device drivers, peripheral drivers, hardware abstraction          |
+| **FPGA**               | FPGA programming, digital logic, hardware/software co-design      |
+| **Hardware**           | PCB design, schematics, digital electronics, MCU-based hardware   |
+| **Communication**      | UART, SPI, I²C, CAN                                               |
+| **Graphics**           | Embedded GUI, display systems, graphics interfaces                |
+| **Cloud**              | Google Cloud, IoT, cloud-connected embedded systems               |
+| **Tools**              | Linux, Git, GitHub, CMake                                         |
+| **Research**           | Embedded OS, kernels, firmware, low-level systems                 |
 
 ---
 
-# 🔬 Engineering & Research
+# 🔬 Engineering Focus
 
-With **8+ years of experience in embedded systems**, I focus on building and understanding systems across multiple layers of the technology stack.
-
-My interests sit at the intersection of:
+My work sits across several engineering disciplines:
 
 ```text
-Hardware
-   ↓
-Microcontrollers
-   ↓
-Firmware
-   ↓
-Drivers
-   ↓
-RTOS
-   ↓
-Operating Systems
-   ↓
-Graphics
-   ↓
-Networking / IoT
-   ↓
-Cloud
-   ↓
-Applications
+        ELECTRONICS
+             │
+          PCB DESIGN
+             │
+       MCU / FPGA
+             │
+         FIRMWARE
+             │
+        DEVICE DRIVERS
+             │
+       RTOS / KERNEL
+             │
+        EMBEDDED GUI
+             │
+       CONNECTIVITY
+             │
+            IoT
+             │
+       GOOGLE CLOUD
 ```
 
-I enjoy taking a problem from the hardware level and gradually building the software stack above it.
+This combination allows me to approach a system as a **complete engineering problem**, rather than focusing on only one layer.
 
 ---
 
-# 🧪 Things I Like Building
+# 🧪 Things I Build
 
-* Embedded operating systems
-* Custom kernels
-* Firmware
-* Device drivers
-* Bare-metal applications
-* RTOS-based systems
-* ESP-based IoT devices
-* STM32 applications
-* AVR projects
-* Raspberry Pi systems
-* Embedded graphical interfaces
-* Display systems
-* Hardware/software integrations
-* Cloud-connected IoT systems
-* Experimental operating-system architectures
+* 🔩 Custom embedded hardware
+* 🟢 PCB-based embedded systems
+* ⚡ FPGA projects
+* 🔧 Microcontroller firmware
+* 🧠 Embedded operating systems
+* ⚙️ Device drivers
+* 🔄 RTOS-based applications
+* 🖥️ Embedded GUI systems
+* 📡 IoT devices
+* 🍓 Raspberry Pi projects
+* ☁️ Cloud-connected embedded systems
+* 🔬 Experimental low-level systems
+* 🛠️ Hardware/software co-design
 
 ---
 
-# 🎯 Current Areas of Interest
+# 🎯 Areas of Interest
 
-`Embedded Systems` · `Firmware` · `C` · `C++` · `Microcontrollers` · `ESP8266` · `ESP32` · `ESP32-S3` · `ESP32-C3` · `ESP32-C6` · `STM32` · `AVR` · `Arduino` · `Raspberry Pi` · `ESP-IDF` · `RTOS` · `Bare Metal` · `Operating Systems` · `Kernel Development` · `Device Drivers` · `Embedded GUI` · `IoT` · `Google Cloud` · `Linux` · `System Programming`
+`Embedded Systems` · `Firmware` · `C` · `C++` · `Embedded C` · `PCB Design` · `Electronics` · `FPGA` · `Digital Logic` · `ESP8266` · `ESP32` · `ESP32-S3` · `ESP32-C3` · `ESP32-C6` · `STM32` · `Renesas` · `AVR` · `Arduino` · `Raspberry Pi` · `ESP-IDF` · `RTOS` · `Bare Metal` · `Operating Systems` · `Kernel Development` · `Device Drivers` · `Embedded GUI` · `IoT` · `Google Cloud` · `Linux` · `System Programming`
 
 ---
 
 # ⚡ Engineering Philosophy
 
-> **Don't just use the system. Understand how it works.**
+> **Build it. Understand it. Improve it.**
 
-From registers and interrupts to kernels, graphical interfaces, networking, and cloud infrastructure — I like exploring the layers that make a complete computing system work.
+I like going beyond simply using existing abstractions — whether that means designing a PCB, programming an MCU, developing a driver, building a kernel, experimenting with an FPGA, creating an embedded GUI, or connecting a device to the cloud.
+
+**From electrons to software. From firmware to cloud.**
 
 ---
 
 <p align="center">
-  <b>Building from hardware to software — one layer at a time. ⚙️</b>
+  <b>⚙️ Hardware × Firmware × FPGA × Operating Systems × Cloud ☁️</b>
 </p>
