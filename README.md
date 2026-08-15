@@ -8,12 +8,11 @@
 
 <br/><br/>
 
-[![GitHub Followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&color=0f172a&labelColor=0d1117&logo=github)](https://github.com/YOUR_GITHUB_USERNAME)
-[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=0f172a&labelColor=0d1117)](https://github.com/YOUR_GITHUB_USERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge&logo=researchgate&logoColor=00CCBB&labelColor=0d1117)](https://www.researchgate.net/profile/YOUR_RESEARCHGATE_PROFILE)
-[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:YOUR_EMAIL@example.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=ffffff&labelColor=0d1117)](https://YOUR_PORTFOLIO_URL.com)
+[![GitHub Followers](https://img.shields.io/github/followers/FerrariForever95?style=for-the-badge&color=0f172a&labelColor=0d1117&logo=github)](https://github.com/FerrariForever95)
+[![Profile Views](https://komarev.com/ghpvc/?username=FerrariForever95&style=for-the-badge&color=0f172a&labelColor=0d1117)](https://github.com/FerrariForever95)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://www.linkedin.com/in/shanmukha-marthi-aa78043b1/)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge&logo=researchgate&logoColor=00CCBB&labelColor=0d1117)](https://www.researchgate.net/profile/Marthi-Viswanadh)
+[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:shanmukhamarthi@gmail.com)
 
 </div>
 
@@ -79,48 +78,37 @@ Understand  →  Build  →  Measure  →  Debug  →  Improve
 
 <br/>
 
-## `03` Flagship Research — Zeno OS
+## `03` Flagship Project — Zeno OS / Zeno Micro PC
 
 <div align="center">
 
 ### **Zeno OS**
-#### A Native C-Kernel Embedded Operating System with a Graphical Interface for the ESP32-S3
+#### A Sandboxed, Edge-Computing Operating System for Constrained Microcontroller Platforms
 
-![Status](https://img.shields.io/badge/STATUS-RESEARCH-0f172a?style=for-the-badge&labelColor=0d1117&color=fbbf24)
-![Language](https://img.shields.io/badge/LANGUAGE-C-0f172a?style=for-the-badge&labelColor=0d1117&color=00599C)
-![Target](https://img.shields.io/badge/TARGET-ESP32--S3-0f172a?style=for-the-badge&labelColor=0d1117&color=E7352E)
-![Type](https://img.shields.io/badge/TYPE-KERNEL-0f172a?style=for-the-badge&labelColor=0d1117&color=94a3b8)
+![Status](https://img.shields.io/badge/STATUS-ACTIVE-0f172a?style=for-the-badge&labelColor=0d1117&color=22c55e)
+![Language](https://img.shields.io/badge/LANGUAGE-MicroPython%20%2F%20C-0f172a?style=for-the-badge&labelColor=0d1117&color=3776AB)
+![Target](https://img.shields.io/badge/TARGET-ESP32--S3--N16R8-0f172a?style=for-the-badge&labelColor=0d1117&color=E7352E)
+![License](https://img.shields.io/badge/LICENSE-EPL--2.0-0f172a?style=for-the-badge&labelColor=0d1117&color=94a3b8)
 
 </div>
 
-Zeno OS is a research-oriented embedded operating system built from the ground up for the **ESP32-S3**, exploring kernel architecture, task scheduling, memory management, driver design, and graphics on resource-constrained hardware.
+Zeno OS (shipped as **Zeno Micro PC**) is a solo research and engineering project exploring how far a general-purpose, multi-application OS experience — process-like isolation, a hierarchical filesystem, a POSIX-flavored shell, a graphical desktop, package management, and networked services — can be pushed onto a single SoC with kilobytes, not gigabytes, of usable RAM. It runs a MicroPython execution core on ESP-IDF, driving an ILI9488/ILI9341-class parallel LCD with touch, and was presented publicly at the SCSVMV engineering symposium.
 
 ```text
-                              ZENO OS
-                                 │
-                  ┌──────────────┴──────────────┐
-                  │                              │
-               KERNEL                         DRIVERS
-                  │                              │
-         ┌────────┴────────┐            ┌────────┴────────┐
-         │                 │            │                 │
-     Scheduler      Memory Manager   Peripherals     Hardware I/O
-         │                 │            │                 │
-         └─────────────────┴────────────┴─────────────────┘
-                                 │
-                                 ▼
-                         GUI / Display Subsystem
-                                 │
-                                 ▼
-                             Applications
-                                 │
-                                 ▼
-                              ESP32-S3
+L6 — Applications        (Home/APPS/*)
+L5 — Shell                ZenCMD — POSIX-flavored interpreter
+L4 — OS Services           Storage · Networking · Process · Package Mgmt
+L3 — Kernel & Capability   Multi-path fail-safe boot, capability-gated auth
+L2 — MicroPython VM       moclcd (native display driver) · zfs (private FS)
+L1 — ESP-IDF / FreeRTOS   Partitioning, drivers, RTOS scheduler
+L0 — Hardware              ESP32-S3-N16R8 · ILI9488 LCD · SD · Radio
 ```
 
-**Research domains:** `Kernel Development` `Preemptive & Cooperative Scheduling` `Dynamic Memory Management` `Peripheral Drivers` `Graphics Subsystem`
+**Engineering highlights:** capability-gated multi-path boot (`kernel.c` / `kernel.py` / `safe.py` / `recovery.py`) · cooperative task scheduler with EWMA execution-time estimation · dual-tier storage (user VFS + mutex-guarded private `zfs`/LittleFS2 kernel partition) · disposable, sandboxed application execution with guaranteed namespace cleanup · ~30-widget native-backed GUI toolkit · roadmap toward a dual-domain **SCPU/GCPU** architecture separating system logic from rendering.
 
-📖 **[Read the Research Paper on ResearchGate →](https://www.researchgate.net/publication/409852826_Zeno_OS_-_A_Native_C-Kernel_Embedded_Operating_System_with_a_Graphical_Interface_for_the_ESP32-S3)**
+**Domains:** `Kernel & Boot Design` `Cooperative Scheduling` `Filesystem Architecture` `Native C Extensions` `GUI Toolkit` `Fault Isolation`
+
+📦 **[View the repository →](https://github.com/FerrariForever95/Zeno-Micro-PC)**
 
 <br/>
 
@@ -130,10 +118,9 @@ Zeno OS is a research-oriented embedded operating system built from the ground u
 
 | Project | Problem Statement | Stack | Status |
 |:---|:---|:---|:---:|
-| **Zeno OS** | Native kernel + GUI for ESP32-S3 from first principles | `C` `ESP32-S3` `Kernel` | ![](https://img.shields.io/badge/Research-fbbf24?style=flat-square&labelColor=0d1117) |
+| **[Zeno Micro PC](https://github.com/FerrariForever95/Zeno-Micro-PC)** | Turns an ESP32-S3 into a sandboxed, touchscreen microcomputer with a full OS stack | `MicroPython` `ESP-IDF` `ESP32-S3` `C` | ![](https://img.shields.io/badge/Active-22c55e?style=flat-square&labelColor=0d1117) |
 | **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/Active-22c55e?style=flat-square&labelColor=0d1117) |
 | **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/v1.0-3b82f6?style=flat-square&labelColor=0d1117) |
-| **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/Archived-64748b?style=flat-square&labelColor=0d1117) |
 
 </div>
 
@@ -199,16 +186,16 @@ Zeno OS is a research-oriented embedded operating system built from the ground u
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&icon_color=64748b&text_color=e2e8f0&ring_color=334155"/>
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0d1117&ring=334155&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=FerrariForever95&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&icon_color=64748b&text_color=e2e8f0&ring_color=334155"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=FerrariForever95&theme=dark&hide_border=true&background=0d1117&ring=334155&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&text_color=e2e8f0&langs_count=10"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerrariForever95&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&text_color=e2e8f0&langs_count=10"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+<img src="https://github-profile-trophy.vercel.app/?username=FerrariForever95&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7"/>
 
 </div>
 
@@ -219,9 +206,9 @@ Zeno OS is a research-oriented embedded operating system built from the ground u
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
 
 <sub>Generated via <a href="https://github.com/Platane/snk">Platane/snk</a> — requires a scheduled GitHub Action on your profile repo.</sub>
