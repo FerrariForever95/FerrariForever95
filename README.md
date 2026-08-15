@@ -1,213 +1,241 @@
 <div align="center">
 
-<img src="./assets/profile-banner.svg" width="100%" alt="Embedded Systems Engineer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a0e1a,60:111827,100:0d1117&height=220&section=header&text=Embedded%20Systems%20Engineer&fontSize=42&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Hardware%20%C2%B7%20Firmware%20%C2%B7%20Kernels%20%C2%B7%20Operating%20Systems%20%C2%B7%20IoT%20%C2%B7%20Cloud&descAlignY=58&descSize=16&descAlign=50"/>
 
-# Embedded Systems Engineer
+<br/>
 
-**Hardware · Firmware · Kernels · Operating Systems · IoT · Cloud**
+<img src="https://readme-typing-svg.demolab.com/?lines=Building+systems+from+silicon+to+software;Understanding+what+happens+below+the+abstraction+layer;Kernel+Development+%C2%B7+RTOS+%C2%B7+Drivers+%C2%B7+GUI+%C2%B7+Cloud&font=Fira%20Code&center=true&width=700&height=45&color=94a3b8&vCenter=true&size=18&pause=1800&background=00000000"/>
 
-Building systems from **PCB to kernel to cloud**.
+<br/><br/>
 
-[![C](https://img.shields.io/badge/C-111827?style=flat-square\&logo=c\&logoColor=A8B9CC)](https://en.wikipedia.org/wiki/C_%28programming_language%29)
-[![C++](https://img.shields.io/badge/C%2B%2B-111827?style=flat-square\&logo=cplusplus\&logoColor=00599C)](https://isocpp.org/)
-[![ESP32](https://img.shields.io/badge/ESP32-111827?style=flat-square\&logo=espressif\&logoColor=E7352E)](https://www.espressif.com/)
-[![STM32](https://img.shields.io/badge/STM32-111827?style=flat-square\&logo=stmicroelectronics\&logoColor=03234B)](https://www.st.com/)
-[![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square\&logo=linux\&logoColor=FCC624)](https://www.linux.org/)
-[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-111827?style=flat-square\&logo=googlecloud\&logoColor=4285F4)](https://cloud.google.com/)
+[![GitHub Followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?style=for-the-badge&color=0f172a&labelColor=0d1117&logo=github)](https://github.com/YOUR_GITHUB_USERNAME)
+[![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=for-the-badge&color=0f172a&labelColor=0d1117)](https://github.com/YOUR_GITHUB_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://linkedin.com/in/YOUR_LINKEDIN_USERNAME)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge&logo=researchgate&logoColor=00CCBB&labelColor=0d1117)](https://www.researchgate.net/profile/YOUR_RESEARCHGATE_PROFILE)
+[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:YOUR_EMAIL@example.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=ffffff&labelColor=0d1117)](https://YOUR_PORTFOLIO_URL.com)
 
 </div>
 
----
+<br/>
 
-## About
+## `01` About
 
-I'm an embedded systems engineer working across **hardware, low-level software, operating systems, and connected devices**.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-My work spans the complete system stack — from PCB design and microcontroller peripherals to firmware, device drivers, kernels, graphical interfaces, IoT services, and cloud applications.
+### 🔧 What I Build
 
-I particularly enjoy understanding what happens **below the abstraction layer** and building systems from the hardware up.
+- Native kernels & schedulers for constrained MCUs
+- Bare-metal firmware & interrupt-driven drivers
+- RTOS-based embedded applications (FreeRTOS)
+- Graphical interfaces for embedded displays
+- PCB-to-cloud IoT device pipelines
+- Custom toolchains & build systems (CMake)
 
-```text
-PCB / Hardware
-      ↓
-MCU / FPGA
-      ↓
-Firmware / Bare Metal / RTOS
-      ↓
-Drivers / Kernel / OS
-      ↓
-GUI / Applications
-      ↓
-IoT / Robotics / Connectivity
-      ↓
-Cloud / Web
-```
+</td>
+<td width="50%" valign="top">
 
----
+### 🧭 Core Engineering Philosophy
 
-## Featured Research
+- Understand every layer — never treat hardware as a black box
+- Build close to silicon; abstract only when it earns its cost
+- Measure before optimizing, debug before assuming
+- Prefer deterministic, resource-aware system design
+- Systems should be traceable from register to UI
 
-# Zeno OS
+</td>
+</tr>
+</table>
 
-### A Native C-Kernel Embedded Operating System with a Graphical Interface for the ESP32-S3
-
-`C` `ESP32-S3` `Kernel` `Embedded OS` `Scheduler` `Memory Management` `Drivers` `GUI` `Research`
-
-**Zeno OS** is a research-oriented embedded operating system developed from the ground up for the **ESP32-S3**.
-
-The project explores operating-system concepts on resource-constrained microcontroller hardware, including kernel architecture, task scheduling, memory management, hardware interaction, device drivers, and graphical interfaces.
+<div align="center">
 
 ```text
-                         ZENO OS
-                            │
-             ┌──────────────┴──────────────┐
-             │                             │
-           KERNEL                       DRIVERS
-             │                             │
-      ┌──────┴──────┐              ┌───────┴────────┐
-      │             │              │                │
-  Scheduler    Memory Manager   Peripherals    Hardware I/O
-      │             │              │                │
-      └─────────────┴──────────────┴────────────────┘
-                            │
-                            ▼
-                       GUI / Display
-                            │
-                            ▼
-                       Applications
-                            │
-                            ▼
-                         ESP32-S3
+Understand  →  Build  →  Measure  →  Debug  →  Improve
 ```
 
-### Research Paper
+</div>
 
-**Zeno OS — A Native C-Kernel Embedded Operating System with a Graphical Interface for the ESP32-S3**
+<br/>
 
-The paper describes the architecture, implementation, and design concepts behind Zeno OS.
-
-📖 **[Read the Research Paper on ResearchGate](https://www.researchgate.net/publication/409852826_Zeno_OS_-_A_Native_C-Kernel_Embedded_Operating_System_with_a_Graphical_Interface_for_the_ESP32-S3)**
-
----
-
-## Core Areas
-
-| Domain                | Technologies & Focus                                                  |
-| --------------------- | --------------------------------------------------------------------- |
-| **Embedded Systems**  | Bare Metal · Firmware · RTOS · Interrupts · Peripherals               |
-| **Operating Systems** | Kernel Development · Scheduling · Memory Management · Drivers         |
-| **Hardware**          | PCB Design · Digital Electronics · Sensors · Hardware Interfaces      |
-| **MCUs**              | ESP32 · ESP32-S3 · ESP32-C3 · ESP32-C6 · STM32 · AVR · Renesas        |
-| **FPGA**              | Digital Logic · FPGA Programming · Hardware/Software Co-Design        |
-| **Communication**     | UART · SPI · I²C · CAN · GPIO · PWM · ADC                             |
-| **IoT**               | Connected Devices · Telemetry · Device Management · Cloud Integration |
-| **Software**          | C · C++ · Python · Java · JavaScript · CMake · Git                    |
-| **Cloud**             | Google Cloud · APIs · Web Applications · IoT Backends                 |
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=c,cpp,python,java,js,arduino,esp32,stm32,raspberrypi,linux,git,github,cmake,gcp" />
-</p>
-
----
-
-## Engineering Focus
-
-My main interests are at the intersection of **hardware and systems software**.
+## `02` System Stack
 
 ```text
-Hardware
-   │
-   ├── PCB Design
-   ├── Digital Logic
-   ├── MCU / FPGA
-   └── Sensors & Peripherals
-          │
-          ▼
-Embedded Software
-   │
-   ├── Bare Metal
-   ├── Firmware
-   ├── RTOS
-   └── Device Drivers
-          │
-          ▼
-Systems Software
-   │
-   ├── Kernel
-   ├── Scheduling
-   ├── Memory Management
-   └── Operating Systems
-          │
-          ▼
-Applications
-   │
-   ├── GUI
-   ├── IoT
-   ├── Robotics
-   └── Cloud
+┌─────────────────────────────────────────────┐
+│                   SILICON                    │   PCB · MCU · FPGA
+├─────────────────────────────────────────────┤
+│                  FIRMWARE                    │   Bare Metal · RTOS · Interrupts
+├─────────────────────────────────────────────┤
+│                   KERNEL                     │   Scheduler · Memory · Drivers
+├─────────────────────────────────────────────┤
+│                 GUI / APPS                   │   Display · Applications
+├─────────────────────────────────────────────┤
+│              IoT / ROBOTICS                  │   Sensors · Connectivity · Control
+├─────────────────────────────────────────────┤
+│                   CLOUD                      │   APIs · Dashboards · Backends
+└─────────────────────────────────────────────┘
 ```
 
----
+<br/>
 
-## IoT & Robotics
+## `03` Flagship Research — Zeno OS
 
-I build connected systems combining **electronics, embedded software, sensors, communication, control, and cloud services**.
+<div align="center">
+
+### **Zeno OS**
+#### A Native C-Kernel Embedded Operating System with a Graphical Interface for the ESP32-S3
+
+![Status](https://img.shields.io/badge/STATUS-RESEARCH-0f172a?style=for-the-badge&labelColor=0d1117&color=fbbf24)
+![Language](https://img.shields.io/badge/LANGUAGE-C-0f172a?style=for-the-badge&labelColor=0d1117&color=00599C)
+![Target](https://img.shields.io/badge/TARGET-ESP32--S3-0f172a?style=for-the-badge&labelColor=0d1117&color=E7352E)
+![Type](https://img.shields.io/badge/TYPE-KERNEL-0f172a?style=for-the-badge&labelColor=0d1117&color=94a3b8)
+
+</div>
+
+Zeno OS is a research-oriented embedded operating system built from the ground up for the **ESP32-S3**, exploring kernel architecture, task scheduling, memory management, driver design, and graphics on resource-constrained hardware.
 
 ```text
-Sensors / Actuators
-        ↓
-MCU / Raspberry Pi
-        ↓
-Firmware / Control
-        ↓
-Connectivity
-        ↓
-IoT Backend
-        ↓
-Cloud
-        ↓
-Dashboard / Application
+                              ZENO OS
+                                 │
+                  ┌──────────────┴──────────────┐
+                  │                              │
+               KERNEL                         DRIVERS
+                  │                              │
+         ┌────────┴────────┐            ┌────────┴────────┐
+         │                 │            │                 │
+     Scheduler      Memory Manager   Peripherals     Hardware I/O
+         │                 │            │                 │
+         └─────────────────┴────────────┴─────────────────┘
+                                 │
+                                 ▼
+                         GUI / Display Subsystem
+                                 │
+                                 ▼
+                             Applications
+                                 │
+                                 ▼
+                              ESP32-S3
 ```
 
-Areas of interest include:
+**Research domains:** `Kernel Development` `Preemptive & Cooperative Scheduling` `Dynamic Memory Management` `Peripheral Drivers` `Graphics Subsystem`
 
-* IoT devices
-* Embedded telemetry
-* Robotics
-* Sensor systems
-* Hardware control
-* Device-to-cloud communication
-* Remote monitoring
-* Connected embedded systems
+📖 **[Read the Research Paper on ResearchGate →](https://www.researchgate.net/publication/409852826_Zeno_OS_-_A_Native_C-Kernel_Embedded_Operating_System_with_a_Graphical_Interface_for_the_ESP32-S3)**
 
----
+<br/>
 
-## Beyond Embedded
+## `04` Project & Status Matrix
 
-I also work on the software surrounding physical systems:
+<div align="center">
 
-**Web Applications · APIs · IoT Dashboards · Device Management · Monitoring · Configuration Tools · Cloud Services**
+| Project | Problem Statement | Stack | Status |
+|:---|:---|:---|:---:|
+| **Zeno OS** | Native kernel + GUI for ESP32-S3 from first principles | `C` `ESP32-S3` `Kernel` | ![](https://img.shields.io/badge/Research-fbbf24?style=flat-square&labelColor=0d1117) |
+| **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/Active-22c55e?style=flat-square&labelColor=0d1117) |
+| **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/v1.0-3b82f6?style=flat-square&labelColor=0d1117) |
+| **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/Archived-64748b?style=flat-square&labelColor=0d1117) |
 
-The goal is to connect the physical device to useful software while keeping the entire system understandable from hardware to application.
+</div>
 
----
+<br/>
 
-## Engineering Philosophy
+## `05` Technology Stack
 
-> **Build close to the hardware. Understand every layer.**
+<div align="center">
 
-I prefer understanding systems rather than treating them as black boxes — from **microcontroller registers and interrupts to kernels, graphical interfaces, network protocols, and cloud infrastructure**.
+**Languages**
 
-```text
-Understand → Build → Measure → Debug → Improve
-```
+![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)
+![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
+![Assembly](https://img.shields.io/badge/Assembly-111827?style=for-the-badge&logo=assemblyscript&logoColor=6E4C13)
+![Java](https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Dart](https://img.shields.io/badge/Dart-111827?style=for-the-badge&logo=dart&logoColor=0175C2)
 
----
+**Silicon · MCUs · FPGA**
+
+![ESP32](https://img.shields.io/badge/ESP32%20S3%20C3%20C6-111827?style=for-the-badge&logo=espressif&logoColor=E7352E)
+![STM32](https://img.shields.io/badge/STM32-111827?style=for-the-badge&logo=stmicroelectronics&logoColor=03234B)
+![AVR](https://img.shields.io/badge/AVR-111827?style=for-the-badge&logo=arduino&logoColor=00979D)
+![Renesas](https://img.shields.io/badge/Renesas-111827?style=for-the-badge&logoColor=ffffff)
+![FPGA](https://img.shields.io/badge/FPGA%20Logic-111827?style=for-the-badge&logoColor=ffffff)
+
+**Systems & Low-Level**
+
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
+![Bare Metal](https://img.shields.io/badge/Bare%20Metal-111827?style=for-the-badge&logoColor=ffffff)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge&logoColor=00979D)
+![Custom Kernels](https://img.shields.io/badge/Custom%20Kernels-111827?style=for-the-badge&logoColor=ffffff)
+![Drivers](https://img.shields.io/badge/Drivers-111827?style=for-the-badge&logoColor=ffffff)
+![Interrupts](https://img.shields.io/badge/Interrupt%20Subsystems-111827?style=for-the-badge&logoColor=ffffff)
+
+**Hardware & Protocols**
+
+![PCB](https://img.shields.io/badge/PCB%20Design-111827?style=for-the-badge&logoColor=ffffff)
+![Digital Electronics](https://img.shields.io/badge/Digital%20Electronics-111827?style=for-the-badge&logoColor=ffffff)
+![UART](https://img.shields.io/badge/UART-111827?style=for-the-badge&logoColor=ffffff)
+![SPI](https://img.shields.io/badge/SPI-111827?style=for-the-badge&logoColor=ffffff)
+![I2C](https://img.shields.io/badge/I2C-111827?style=for-the-badge&logoColor=ffffff)
+![CAN](https://img.shields.io/badge/CAN-111827?style=for-the-badge&logoColor=ffffff)
+![GPIO](https://img.shields.io/badge/GPIO-111827?style=for-the-badge&logoColor=ffffff)
+![PWM](https://img.shields.io/badge/PWM-111827?style=for-the-badge&logoColor=ffffff)
+![ADC](https://img.shields.io/badge/ADC-111827?style=for-the-badge&logoColor=ffffff)
+
+**Tooling & Cloud**
+
+![CMake](https://img.shields.io/badge/CMake-111827?style=for-the-badge&logo=cmake&logoColor=064F8C)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
+![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
+![GCP](https://img.shields.io/badge/Google%20Cloud-111827?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
+![MicroPython](https://img.shields.io/badge/MicroPython-111827?style=for-the-badge&logo=micropython&logoColor=2B2728)
+![scrcpy](https://img.shields.io/badge/scrcpy-111827?style=for-the-badge&logoColor=ffffff)
+
+</div>
+
+<br/>
+
+## `06` Telemetry
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&icon_color=64748b&text_color=e2e8f0&ring_color=334155"/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=dark&hide_border=true&background=0d1117&ring=334155&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b"/>
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&text_color=e2e8f0&langs_count=10"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+
+</div>
+
+<br/>
+
+## `07` Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg"/>
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg"/>
+</picture>
+
+<sub>Generated via <a href="https://github.com/Platane/snk">Platane/snk</a> — requires a scheduled GitHub Action on your profile repo.</sub>
+
+</div>
+
+<br/>
 
 <div align="center">
 
 ### Embedded Systems · Operating Systems · Hardware · IoT
 
 **Building systems from silicon to software.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a0e1a,60:111827,100:0d1117&height=120&section=footer"/>
 
 </div>
