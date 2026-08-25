@@ -1,18 +1,20 @@
+# Embedded Systems · Firmware · Digital Hardware
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a0e1a,60:111827,100:0d1117&height=220&section=header&text=Embedded%20Systems%20Engineer&fontSize=42&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Hardware%20%C2%B7%20Firmware%20%C2%B7%20Kernels%20%C2%B7%20Operating%20Systems%20%C2%B7%20IoT%20%C2%B7%20Cloud&descAlignY=58&descSize=16&descAlign=50"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:111827,70:0f172a,100:020617&height=220&section=header&text=Embedded%20Systems%20Engineer&fontSize=42&fontColor=e2e8f0&animation=fadeIn&fontAlignY=38&desc=Hardware%20%C2%B7%20Firmware%20%C2%B7%20FPGA%20%C2%B7%20Systems&descAlignY=58&descSize=17&descAlign=50"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Building+systems+from+silicon+to+software;Understanding+what+happens+below+the+abstraction+layer;Kernel+Development+%C2%B7+RTOS+%C2%B7+Drivers+%C2%B7+GUI+%C2%B7+Cloud&font=Fira%20Code&center=true&width=700&height=45&color=94a3b8&vCenter=true&size=18&pause=1800&background=00000000"/>
+<img src="https://readme-typing-svg.demolab.com/?lines=Hardware+to+firmware;Registers+to+drivers;Microcontrollers+to+systems;Building+close+to+the+silicon&font=Fira%20Code&center=true&width=700&height=45&color=94a3b8&vCenter=true&size=18&pause=1800&background=00000000"/>
 
 <br/><br/>
 
-[![GitHub Followers](https://img.shields.io/github/followers/FerrariForever95?style=for-the-badge&color=0f172a&labelColor=0d1117&logo=github)](https://github.com/FerrariForever95)
-[![Profile Views](https://komarev.com/ghpvc/?username=FerrariForever95&style=for-the-badge&color=0f172a&labelColor=0d1117)](https://github.com/FerrariForever95)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://www.linkedin.com/in/shanmukha-marthi-aa78043b1/)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge&logo=researchgate&logoColor=00CCBB&labelColor=0d1117)](https://www.researchgate.net/profile/Marthi-Viswanadh)
-[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:shanmukhamarthi@gmail.com)
+[![GitHub Followers](https://img.shields.io/github/followers/FerrariForever95?style=for-the-badge\&color=0f172a\&labelColor=0d1117\&logo=github)](https://github.com/FerrariForever95)
+[![Profile Views](https://komarev.com/ghpvc/?username=FerrariForever95\&style=for-the-badge\&color=0f172a\&labelColor=0d1117)](https://github.com/FerrariForever95)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge\&logo=linkedin\&logoColor=0A66C2\&labelColor=0d1117)](https://www.linkedin.com/in/shanmukha-marthi-aa78043b1/)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge\&logo=researchgate\&logoColor=00CCBB\&labelColor=0d1117)](https://www.researchgate.net/profile/Marthi-Viswanadh)
+[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge\&logo=gmail\&logoColor=EA4335\&labelColor=0d1117)](mailto:shanmukhamarthi@gmail.com)
 
 </div>
 
@@ -20,209 +22,351 @@
 
 ## `01` About
 
-<table>
-<tr>
-<td width="50%" valign="top">
+I work primarily at the boundary between **hardware and software**.
 
-### 🔧 What I Build
-
-- Native kernels & schedulers for constrained MCUs
-- Bare-metal firmware & interrupt-driven drivers
-- RTOS-based embedded applications (FreeRTOS)
-- Graphical interfaces for embedded displays
-- PCB-to-cloud IoT device pipelines
-- Custom toolchains & build systems (CMake)
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 Core Engineering Philosophy
-
-- Understand every layer — never treat hardware as a black box
-- Build close to silicon; abstract only when it earns its cost
-- Measure before optimizing, debug before assuming
-- Prefer deterministic, resource-aware system design
-- Systems should be traceable from register to UI
-
-</td>
-</tr>
-</table>
-
-<div align="center">
+My projects usually start close to the hardware — registers, buses, peripherals, interrupts, memory and timing — and build upward into firmware, drivers and complete embedded systems.
 
 ```text
-Understand  →  Build  →  Measure  →  Debug  →  Improve
+Hardware
+   ↓
+Registers / Peripherals
+   ↓
+Firmware
+   ↓
+Drivers / RTOS
+   ↓
+System Software
+   ↓
+Applications
 ```
 
-</div>
+### What I Build
 
-<br/>
+* Bare-metal firmware
+* Register-level microcontroller software
+* Interrupt-driven systems
+* Embedded drivers
+* FreeRTOS applications
+* MicroPython systems
+* FPGA logic and Verilog
+* Embedded graphical interfaces
+* Custom embedded operating-system components
+* PCB-based hardware prototypes
 
-## `02` System Stack
+### Engineering Approach
 
 ```text
-┌─────────────────────────────────────────────┐
-│                   SILICON                    │   PCB · MCU · FPGA
-├─────────────────────────────────────────────┤
-│                  FIRMWARE                    │   Bare Metal · RTOS · Interrupts
-├─────────────────────────────────────────────┤
-│                   KERNEL                     │   Scheduler · Memory · Drivers
-├─────────────────────────────────────────────┤
-│                 GUI / APPS                   │   Display · Applications
-├─────────────────────────────────────────────┤
-│              IoT / ROBOTICS                  │   Sensors · Connectivity · Control
-├─────────────────────────────────────────────┤
-│                   CLOUD                      │   APIs · Dashboards · Backends
-└─────────────────────────────────────────────┘
+Understand
+    ↓
+Design
+    ↓
+Build
+    ↓
+Measure
+    ↓
+Debug
+    ↓
+Improve
 ```
 
-<br/>
+I prefer understanding what happens underneath an abstraction before depending on it.
 
-## `03` Flagship Project — Zeno OS / Zeno Micro PC
+---
 
-<div align="center">
+## `02` Featured Projects
 
-### **Zeno OS**
-#### A Sandboxed, Edge-Computing Operating System for Constrained Microcontroller Platforms
+### 🖥️ Zeno
 
-![Status](https://img.shields.io/badge/STATUS-ACTIVE-0f172a?style=for-the-badge&labelColor=0d1117&color=22c55e)
-![Language](https://img.shields.io/badge/LANGUAGE-MicroPython%20%2F%20C-0f172a?style=for-the-badge&labelColor=0d1117&color=3776AB)
-![Target](https://img.shields.io/badge/TARGET-ESP32--S3--N16R8-0f172a?style=for-the-badge&labelColor=0d1117&color=E7352E)
-![License](https://img.shields.io/badge/LICENSE-EPL--2.0-0f172a?style=for-the-badge&labelColor=0d1117&color=94a3b8)
+**Embedded system environment for ESP32-S3**
 
-</div>
+[View Repository →](https://github.com/FerrariForever95/Zeno-Micro-PC)
 
-Zeno OS (shipped as **Zeno Micro PC**) is a solo research and engineering project exploring how far a general-purpose, multi-application OS experience — process-like isolation, a hierarchical filesystem, a POSIX-flavored shell, a graphical desktop, package management, and networked services — can be pushed onto a single SoC with kilobytes, not gigabytes, of usable RAM. It runs a MicroPython execution core on ESP-IDF, driving an ILI9488/ILI9341-class parallel LCD with touch, and was presented publicly at the SCSVMV engineering symposium.
+Zeno is an experimental embedded system built around the ESP32-S3, combining MicroPython, ESP-IDF, custom system services, storage, a graphical interface and application execution.
 
 ```text
-L6 — Applications        (Home/APPS/*)
-L5 — Shell                ZenCMD — POSIX-flavored interpreter
-L4 — OS Services           Storage · Networking · Process · Package Mgmt
-L3 — Kernel & Capability   Multi-path fail-safe boot, capability-gated auth
-L2 — MicroPython VM       moclcd (native display driver) · zfs (private FS)
-L1 — ESP-IDF / FreeRTOS   Partitioning, drivers, RTOS scheduler
-L0 — Hardware              ESP32-S3-N16R8 · ILI9488 LCD · SD · Radio
+ESP32-S3
+   │
+   ├── ESP-IDF / FreeRTOS
+   │
+   ├── MicroPython
+   │
+   ├── System Services
+   │      ├── Storage
+   │      ├── Applications
+   │      ├── Process Management
+   │      └── Package Management
+   │
+   └── GUI
+          ├── Display
+          └── Touch
 ```
 
-**Engineering highlights:** capability-gated multi-path boot (`kernel.c` / `kernel.py` / `safe.py` / `recovery.py`) · cooperative task scheduler with EWMA execution-time estimation · dual-tier storage (user VFS + mutex-guarded private `zfs`/LittleFS2 kernel partition) · disposable, sandboxed application execution with guaranteed namespace cleanup · ~30-widget native-backed GUI toolkit · roadmap toward a dual-domain **SCPU/GCPU** architecture separating system logic from rendering.
+#### Engineering Work
 
-**Domains:** `Kernel & Boot Design` `Cooperative Scheduling` `Filesystem Architecture` `Native C Extensions` `GUI Toolkit` `Fault Isolation`
+* Custom boot and recovery paths
+* ESP32-S3 system integration
+* Filesystem architecture
+* Application execution environment
+* Cooperative scheduling
+* Native C extensions
+* Display-driver integration
+* Touch-enabled GUI
+* SD-card storage
+* MicroPython runtime integration
 
-📦 **[View the repository →](https://github.com/FerrariForever95/Zeno-Micro-PC)**
+```text
+ESP32-S3
+   ↓
+Boot
+   ↓
+Kernel / System Services
+   ↓
+Runtime
+   ↓
+Applications
+   ↓
+Display + Input
+```
 
-<br/>
+---
 
-## `04` Project & Status Matrix
+### 🤖 Robot MkII
 
-<div align="center">
+**Embedded robotics platform**
 
-| Project | Problem Statement | Stack | Status |
-|:---|:---|:---|:---:|
-| **[Zeno Micro PC](https://github.com/FerrariForever95/Zeno-Micro-PC)** | Turns an ESP32-S3 into a sandboxed, touchscreen microcomputer with a full OS stack | `MicroPython` `ESP-IDF` `ESP32-S3` `C` | ![](https://img.shields.io/badge/Active-22c55e?style=flat-square&labelColor=0d1117) |
-| **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/Active-22c55e?style=flat-square&labelColor=0d1117) |
-| **YOUR_PROJECT_NAME** | One-sentence problem this project solves | `Tech` `Tags` `Here` | ![](https://img.shields.io/badge/v1.0-3b82f6?style=flat-square&labelColor=0d1117) |
+A hardware-focused robotics platform built around an MCU, inertial sensing, environmental sensing and motor control.
 
-</div>
+```text
+Sensors
+   ↓
+MCU
+   ↓
+Control Logic
+   ↓
+Motor Driver
+   ↓
+DC Motors
+```
 
-<br/>
+Hardware includes:
 
-## `05` Technology Stack
+* MPU6050
+* DHT11
+* TB6612FNG
+* N20 gear motors
+* Arduino Nano
+* Wireless interfaces
+* Li-ion power system
 
-<div align="center">
+Focus areas:
 
-**Languages**
+`Sensor Interfaces` · `Motor Control` · `Embedded Control` · `Power`
 
-![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)
-![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=cplusplus&logoColor=00599C)
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
-![Assembly](https://img.shields.io/badge/Assembly-111827?style=for-the-badge&logo=assemblyscript&logoColor=6E4C13)
-![Java](https://img.shields.io/badge/Java-111827?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Dart](https://img.shields.io/badge/Dart-111827?style=for-the-badge&logo=dart&logoColor=0175C2)
+---
 
-**Silicon · MCUs · FPGA**
+### ⚡ Shrike FPGA Experiments
 
-![ESP32](https://img.shields.io/badge/ESP32%20S3%20C3%20C6-111827?style=for-the-badge&logo=espressif&logoColor=E7352E)
-![STM32](https://img.shields.io/badge/STM32-111827?style=for-the-badge&logo=stmicroelectronics&logoColor=03234B)
-![AVR](https://img.shields.io/badge/AVR-111827?style=for-the-badge&logo=arduino&logoColor=00979D)
-![Renesas](https://img.shields.io/badge/Renesas-111827?style=for-the-badge&logoColor=ffffff)
-![FPGA](https://img.shields.io/badge/FPGA%20Logic-111827?style=for-the-badge&logoColor=ffffff)
+**FPGA + microcontroller development**
 
-**Systems & Low-Level**
+Exploring digital logic design and hardware acceleration using the Shrike FPGA platform.
 
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Bare Metal](https://img.shields.io/badge/Bare%20Metal-111827?style=for-the-badge&logoColor=ffffff)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge&logoColor=00979D)
-![Custom Kernels](https://img.shields.io/badge/Custom%20Kernels-111827?style=for-the-badge&logoColor=ffffff)
-![Drivers](https://img.shields.io/badge/Drivers-111827?style=for-the-badge&logoColor=ffffff)
-![Interrupts](https://img.shields.io/badge/Interrupt%20Subsystems-111827?style=for-the-badge&logoColor=ffffff)
+```text
+Verilog
+   ↓
+RTL
+   ↓
+Synthesis
+   ↓
+FPGA Logic
+   ↓
+Hardware
+```
 
-**Hardware & Protocols**
+Areas of interest:
 
-![PCB](https://img.shields.io/badge/PCB%20Design-111827?style=for-the-badge&logoColor=ffffff)
-![Digital Electronics](https://img.shields.io/badge/Digital%20Electronics-111827?style=for-the-badge&logoColor=ffffff)
-![UART](https://img.shields.io/badge/UART-111827?style=for-the-badge&logoColor=ffffff)
-![SPI](https://img.shields.io/badge/SPI-111827?style=for-the-badge&logoColor=ffffff)
-![I2C](https://img.shields.io/badge/I2C-111827?style=for-the-badge&logoColor=ffffff)
-![CAN](https://img.shields.io/badge/CAN-111827?style=for-the-badge&logoColor=ffffff)
-![GPIO](https://img.shields.io/badge/GPIO-111827?style=for-the-badge&logoColor=ffffff)
-![PWM](https://img.shields.io/badge/PWM-111827?style=for-the-badge&logoColor=ffffff)
-![ADC](https://img.shields.io/badge/ADC-111827?style=for-the-badge&logoColor=ffffff)
+* Verilog
+* RTL design
+* Digital logic
+* FPGA peripherals
+* MCU ↔ FPGA interfaces
+* Hardware-level experimentation
 
-**Tooling & Cloud**
+---
 
-![CMake](https://img.shields.io/badge/CMake-111827?style=for-the-badge&logo=cmake&logoColor=064F8C)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![Docker](https://img.shields.io/badge/Docker-111827?style=for-the-badge&logo=docker&logoColor=2496ED)
-![GCP](https://img.shields.io/badge/Google%20Cloud-111827?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
-![MicroPython](https://img.shields.io/badge/MicroPython-111827?style=for-the-badge&logo=micropython&logoColor=2B2728)
-![scrcpy](https://img.shields.io/badge/scrcpy-111827?style=for-the-badge&logoColor=ffffff)
+### 🔬 AVR Register-Level Experiments
 
-</div>
+**Understanding microcontrollers below the Arduino abstraction**
 
-<br/>
+Working directly with MCU registers and peripherals to understand how embedded systems operate underneath higher-level frameworks.
 
-## `06` Telemetry
+```text
+Register
+   ↓
+Peripheral
+   ↓
+Interrupt
+   ↓
+Firmware
+   ↓
+Application
+```
+
+Focus:
+
+`GPIO` · `Timers` · `PWM` · `ADC` · `UART` · `SPI` · `I²C` · `Interrupts`
+
+---
+
+## `03` Hardware
+
+```text
+                    DIGITAL HARDWARE
+                          │
+          ┌───────────────┼───────────────┐
+          ↓               ↓               ↓
+        MCU              FPGA            PCB
+          │               │               │
+      ESP32 / AVR       Verilog       Prototyping
+          │               │               │
+          └───────────────┼───────────────┘
+                          ↓
+                       SYSTEM
+```
+
+### Microcontrollers
+
+`ESP32` · `ESP32-S3` · `ESP32-C3` · `ESP32-C6` · `ESP8266` · `AVR`
+
+### FPGA
+
+`Renesas FPGA` · `Verilog` · `RTL`
+
+### Hardware Design
+
+`PCB Design` · `Digital Electronics` · `SMD` · `Through-Hole` · `Power Electronics`
+
+### Interfaces
+
+`GPIO` · `UART` · `SPI` · `I²C` · `PWM` · `ADC`
+
+---
+
+## `04` Software & Systems
+
+### Languages
+
+![C](https://img.shields.io/badge/C-111827?style=for-the-badge\&logo=c\&logoColor=A8B9CC)
+![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge\&logo=cplusplus\&logoColor=00599C)
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge\&logo=python\&logoColor=3776AB)
+![Verilog](https://img.shields.io/badge/Verilog-111827?style=for-the-badge\&logoColor=e2e8f0)
+![Assembly](https://img.shields.io/badge/Assembly-111827?style=for-the-badge\&logoColor=e2e8f0)
+
+### Embedded
+
+![ESP32](https://img.shields.io/badge/ESP32-111827?style=for-the-badge\&logo=espressif\&logoColor=E7352E)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge\&logo=freertos\&logoColor=00979D)
+![MicroPython](https://img.shields.io/badge/MicroPython-111827?style=for-the-badge\&logo=micropython\&logoColor=2B2728)
+
+### Systems
+
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge\&logo=linux\&logoColor=FCC624)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge\&logo=git\&logoColor=F05032)
+![CMake](https://img.shields.io/badge/CMake-111827?style=for-the-badge\&logo=cmake\&logoColor=064F8C)
+
+```text
+C / C++
+    ↓
+Firmware
+    ↓
+Drivers
+    ↓
+RTOS / System Software
+    ↓
+Applications
+```
+
+---
+
+## `05` Current Areas of Exploration
+
+```text
+FPGA
+ ↓
+Verilog / RTL
+ ↓
+Digital System Design
+```
+
+```text
+ESP32-S3
+ ↓
+ESP-IDF
+ ↓
+FreeRTOS
+ ↓
+MicroPython
+ ↓
+Embedded Systems
+```
+
+```text
+AVR
+ ↓
+Registers
+ ↓
+Peripherals
+ ↓
+Bare Metal
+```
+
+```text
+Hardware
+ ↓
+PCB
+ ↓
+Firmware
+ ↓
+System
+```
+
+---
+
+## `06` GitHub Activity
 
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=FerrariForever95&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&icon_color=64748b&text_color=e2e8f0&ring_color=334155"/>
+
 <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=FerrariForever95&theme=dark&hide_border=true&background=0d1117&ring=334155&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b"/>
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerrariForever95&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&text_color=e2e8f0&langs_count=10"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=FerrariForever95&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerrariForever95&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&text_color=e2e8f0&langs_count=10"/>
 
 </div>
 
-<br/>
+---
 
 ## `07` Contribution Graph
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake.svg"/>
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-
-<sub>Generated via <a href="https://github.com/Platane/snk">Platane/snk</a> — requires a scheduled GitHub Action on your profile repo.</sub>
 
 </div>
 
-<br/>
+---
 
 <div align="center">
 
-### Embedded Systems · Operating Systems · Hardware · IoT
+### Hardware → Firmware → Systems
 
-**Building systems from silicon to software.**
+**Building close to the silicon.**
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a0e1a,60:111827,100:0d1117&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:111827,70:0f172a,100:020617&height=120&section=footer"/>
 
 </div>
