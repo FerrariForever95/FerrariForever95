@@ -10,11 +10,11 @@
 
 <br/><br/>
 
-[![GitHub Followers](https://img.shields.io/github/followers/FerrariForever95?style=for-the-badge&color=0f172a&labelColor=0d1117&logo=github)](https://github.com/FerrariForever95)
-[![Profile Views](https://komarev.com/ghpvc/?username=FerrariForever95&style=for-the-badge&color=0f172a&labelColor=0d1117)](https://github.com/FerrariForever95)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0d1117)](https://www.linkedin.com/in/shanmukha-marthi-aa78043b1/)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge&logo=researchgate&logoColor=00CCBB&labelColor=0d1117)](https://www.researchgate.net/profile/Marthi-Viswanadh)
-[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0d1117)](mailto:shanmukhamarthi@gmail.com)
+[![GitHub Followers](https://img.shields.io/github/followers/FerrariForever95?style=for-the-badge\&color=0f172a\&labelColor=0d1117\&logo=github)](https://github.com/FerrariForever95)
+[![Profile Views](https://komarev.com/ghpvc/?username=FerrariForever95\&style=for-the-badge\&color=0f172a\&labelColor=0d1117)](https://github.com/FerrariForever95)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge\&logo=linkedin\&logoColor=0A66C2\&labelColor=0d1117)](https://www.linkedin.com/in/shanmukha-marthi-aa78043b1/)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-0f172a?style=for-the-badge\&logo=researchgate\&logoColor=00CCBB\&labelColor=0d1117)](https://www.researchgate.net/profile/Marthi-Viswanadh)
+[![Email](https://img.shields.io/badge/Email-0f172a?style=for-the-badge\&logo=gmail\&logoColor=EA4335\&labelColor=0d1117)](mailto:shanmukhamarthi@gmail.com)
 
 </div>
 
@@ -42,16 +42,16 @@ Applications
 
 ### What I Build
 
-- Bare-metal firmware
-- Register-level microcontroller software
-- Interrupt-driven systems
-- Embedded drivers
-- FreeRTOS applications
-- MicroPython systems
-- FPGA logic and Verilog
-- Embedded graphical interfaces
-- Custom embedded operating-system components
-- PCB-based hardware prototypes
+* Bare-metal firmware
+* Register-level microcontroller software
+* Interrupt-driven systems
+* Embedded drivers
+* FreeRTOS applications
+* MicroPython systems
+* FPGA logic and Verilog
+* Embedded graphical interfaces
+* Custom embedded operating-system components
+* PCB-based hardware prototypes
 
 ### Engineering Approach
 
@@ -69,6 +69,8 @@ Debug
 Improve
 ```
 
+I prefer understanding what happens underneath an abstraction before depending on it.
+
 ---
 
 ## `02` Featured Projects
@@ -85,12 +87,15 @@ Zeno is an experimental embedded system built around the ESP32-S3, combining Mic
 ESP32-S3
    │
    ├── ESP-IDF / FreeRTOS
+   │
    ├── MicroPython
+   │
    ├── System Services
    │      ├── Storage
    │      ├── Applications
    │      ├── Process Management
    │      └── Package Management
+   │
    └── GUI
           ├── Display
           └── Touch
@@ -98,22 +103,38 @@ ESP32-S3
 
 #### Engineering Work
 
-- Custom boot and recovery paths
-- ESP32-S3 system integration
-- Filesystem architecture
-- Application execution environment
-- Cooperative scheduling
-- Native C extensions
-- Display-driver integration
-- Touch-enabled GUI
-- SD-card storage
-- MicroPython runtime integration
+* Custom boot and recovery paths
+* ESP32-S3 system integration
+* Filesystem architecture
+* Application execution environment
+* Cooperative scheduling
+* Native C extensions
+* Display-driver integration
+* Touch-enabled GUI
+* SD-card storage
+* MicroPython runtime integration
+
+```text
+ESP32-S3
+   ↓
+Boot
+   ↓
+Kernel / System Services
+   ↓
+Runtime
+   ↓
+Applications
+   ↓
+Display + Input
+```
 
 ---
 
 ### 🤖 Robot MkII
 
 **Embedded robotics platform**
+
+A hardware-focused robotics platform built around an MCU, inertial sensing, environmental sensing and motor control.
 
 ```text
 Sensors
@@ -127,11 +148,17 @@ Motor Driver
 DC Motors
 ```
 
-Hardware:
+Hardware includes:
 
-`MPU6050` · `DHT11` · `TB6612FNG` · `N20 Motors` · `Arduino Nano`
+* MPU6050
+* DHT11
+* TB6612FNG
+* N20 gear motors
+* Arduino Nano
+* Wireless interfaces
+* Li-ion power system
 
-Focus:
+Focus areas:
 
 `Sensor Interfaces` · `Motor Control` · `Embedded Control` · `Power`
 
@@ -140,6 +167,8 @@ Focus:
 ### ⚡ Shrike FPGA Experiments
 
 **FPGA + microcontroller development**
+
+Exploring digital logic design and hardware acceleration using the Shrike FPGA platform.
 
 ```text
 Verilog
@@ -153,15 +182,22 @@ FPGA Logic
 Hardware
 ```
 
-Focus:
+Areas of interest:
 
-`Verilog` · `RTL` · `Digital Logic` · `FPGA Peripherals` · `MCU ↔ FPGA`
+* Verilog
+* RTL design
+* Digital logic
+* FPGA peripherals
+* MCU ↔ FPGA interfaces
+* Hardware-level experimentation
 
 ---
 
 ### 🔬 AVR Register-Level Experiments
 
-**Microcontroller development below the Arduino abstraction**
+**Understanding microcontrollers below the Arduino abstraction**
+
+Working directly with MCU registers and peripherals to understand how embedded systems operate underneath higher-level frameworks.
 
 ```text
 Register
@@ -171,6 +207,8 @@ Peripheral
 Interrupt
    ↓
 Firmware
+   ↓
+Application
 ```
 
 Focus:
@@ -217,36 +255,78 @@ Focus:
 
 ### Languages
 
-![C](https://img.shields.io/badge/C-111827?style=for-the-badge&logo=c&logoColor=A8B9CC)
-![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge&logo=cplusplus&logoColor=00599C)
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
-![Verilog](https://img.shields.io/badge/Verilog-111827?style=for-the-badge&logoColor=e2e8f0)
-![Assembly](https://img.shields.io/badge/Assembly-111827?style=for-the-badge&logoColor=e2e8f0)
+![C](https://img.shields.io/badge/C-111827?style=for-the-badge\&logo=c\&logoColor=A8B9CC)
+![C++](https://img.shields.io/badge/C%2B%2B-111827?style=for-the-badge\&logo=cplusplus\&logoColor=00599C)
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge\&logo=python\&logoColor=3776AB)
+![Verilog](https://img.shields.io/badge/Verilog-111827?style=for-the-badge\&logoColor=e2e8f0)
+![Assembly](https://img.shields.io/badge/Assembly-111827?style=for-the-badge\&logoColor=e2e8f0)
 
 ### Embedded
 
-![ESP32](https://img.shields.io/badge/ESP32-111827?style=for-the-badge&logo=espressif&logoColor=E7352E)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge&logo=freertos&logoColor=00979D)
-![MicroPython](https://img.shields.io/badge/MicroPython-111827?style=for-the-badge&logo=micropython&logoColor=2B2728)
+![ESP32](https://img.shields.io/badge/ESP32-111827?style=for-the-badge\&logo=espressif\&logoColor=E7352E)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-111827?style=for-the-badge\&logo=freertos\&logoColor=00979D)
+![MicroPython](https://img.shields.io/badge/MicroPython-111827?style=for-the-badge\&logo=micropython\&logoColor=2B2728)
 
 ### Systems
 
-![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=FCC624)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git&logoColor=F05032)
-![CMake](https://img.shields.io/badge/CMake-111827?style=for-the-badge&logo=cmake&logoColor=064F8C)
+![Linux](https://img.shields.io/badge/Linux-111827?style=for-the-badge\&logo=linux\&logoColor=FCC624)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge\&logo=git\&logoColor=F05032)
+![CMake](https://img.shields.io/badge/CMake-111827?style=for-the-badge\&logo=cmake\&logoColor=064F8C)
+
+```text
+C / C++
+    ↓
+Firmware
+    ↓
+Drivers
+    ↓
+RTOS / System Software
+    ↓
+Applications
+```
 
 ---
 
 ## `05` Current Areas of Exploration
 
 ```text
-FPGA → Verilog / RTL → Digital System Design
+FPGA
+ ↓
+Verilog / RTL
+ ↓
+Digital System Design
+```
 
-ESP32-S3 → ESP-IDF → FreeRTOS → MicroPython → Embedded Systems
+```text
+ESP32-S3
+ ↓
+ESP-IDF
+ ↓
+FreeRTOS
+ ↓
+MicroPython
+ ↓
+Embedded Systems
+```
 
-AVR → Registers → Peripherals → Bare Metal
+```text
+AVR
+ ↓
+Registers
+ ↓
+Peripherals
+ ↓
+Bare Metal
+```
 
-Hardware → PCB → Firmware → System
+```text
+Hardware
+ ↓
+PCB
+ ↓
+Firmware
+ ↓
+System
 ```
 
 ---
@@ -255,21 +335,27 @@ Hardware → PCB → Firmware → System
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/main/assets/github-activity.svg" alt="GitHub activity telemetry"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=FerrariForever95&show_icons=true&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&icon_color=64748b&text_color=e2e8f0&ring_color=334155"/>
 
-<br/>
+<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=FerrariForever95&theme=dark&hide_border=true&background=0d1117&ring=334155&fire=94a3b8&currStreakLabel=e2e8f0&sideLabels=94a3b8&currStreakNum=e2e8f0&sideNums=e2e8f0&dates=64748b"/>
 
-**Contribution history**
+<br/><br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=FerrariForever95&layout=compact&theme=transparent&hide_border=true&bg_color=0d1117&title_color=94a3b8&text_color=e2e8f0&langs_count=10"/>
+
+</div>
+
+---
+
+## `07` Contribution Graph
+
+<div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake.svg"/>
-  <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/FerrariForever95/FerrariForever95/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+  <img alt="GitHub contribution graph" src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"/>
 </picture>
-
-<br/>
-
-`BUILD → COMMIT → TEST → DEBUG → REPEAT`
 
 </div>
 
